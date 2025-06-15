@@ -1,0 +1,29 @@
+import HomeworkSection from '../components/HomeworkBox/HomeworkBox';
+
+export default function Homeworks() {
+  return (
+    <div>
+      <h1 style={{ textAlign: 'center', marginTop: '20px' }}>Домашні роботи</h1>
+      <div
+        style={{
+          display: 'flex',
+          gap: '15px',
+          marginTop: '20px',
+        }}
+      >
+        <HomeworkSection title="Домашня робота №2" path="homework2">
+          <p>Форма авторизації</p>
+          <p>Квитки літака</p>
+          <p>Тренажер англійської мови</p>
+          <p>Список працівників</p>
+          <p>Результати пошуку</p>
+          <p>Кухня</p>
+        </HomeworkSection>
+        <HomeworkSection title="Домашня робота №3" path="homework3">
+          <p>Динамічний пошук</p>
+          <p>Гра Хрестик-Нулик</p>
+        </HomeworkSection>
+      </div>
+    </div>
+  );
+}
