@@ -8,7 +8,7 @@ export default function Homeworks() {
         style={{
           display: 'flex',
           gap: '15px',
-          marginTop: '20px',
+          marginTop: '20px'
         }}
       >
         <HomeworkSection title="Домашня робота №2" path="homework2">
@@ -22,6 +22,10 @@ export default function Homeworks() {
         <HomeworkSection title="Домашня робота №3" path="homework3">
           <p>Динамічний пошук</p>
           <p>Гра Хрестик-Нулик1</p>
+        </HomeworkSection>
+        <HomeworkSection title="Домашня робота №4" path="homework4">
+          <p>Мессенджер</p>
+          <p>Гра “Вгадай число”</p>
         </HomeworkSection>
       </div>
     </div>
