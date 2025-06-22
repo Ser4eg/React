@@ -12,8 +12,8 @@ export default function Homeworks() {
         }}
       >
         <HomeworkSection title="Домашня робота №2" path="homework2">
-          <p>Форма авторизації</p>
-          <p>Квитки літака</p>
+          <p>1Форма авторизації</p>
+          <p>2Квитки літака</p>
           <p>Тренажер англійської мови</p>
           <p>Список працівників</p>
           <p>Результати пошуку</p>
@@ -21,7 +21,7 @@ export default function Homeworks() {
         </HomeworkSection>
         <HomeworkSection title="Домашня робота №3" path="homework3">
           <p>Динамічний пошук</p>
-          <p>Гра Хрестик-Нулик</p>
+          <p>Гра Хрестик-Нулик1</p>
         </HomeworkSection>
       </div>
     </div>
